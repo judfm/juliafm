@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitor de Investimentos</title>
+</head>
+<body>
+  <!--navbar-->
+  <header class="flex justify-center sticky top-0 z-100 px-4 bg-base-200 shadow-sm">
+    <div class="navbar max-w-5xl">
+      <!--start-->
+      <div class="navbar-start flex flex-row justify-start px-4 md:px-0">
+        <div class="navbar-start">
+          <a class="btn btn-ghost text-xl -ml-8 md:ml-0" href="juliafm.com"><img class="w-13"
+              src="/src/assets/icons/logo_jm.svg" alt="Júlia Martins"></a>
+        </div>
+      </div>
+      <!--center-->
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li>
+            <details>
+              <summary class="text-lg mx-3 font-heading font-medium">Work</summary>
+              <ul class="p-2">
+                <li><a href="/monitor-investimentos.html">Monitor de Investimentos</a></li>
+                <li><a href="/manduri-app.html">Manduri</a></li>
+                <li><a href="/madesms.html">MADESMS</a></li>
+                <li><a href="/cardans-curitiba.html">Cardans Curitiba</a></li>
+                <li><a href="/tris-website.html">Tris Website</a></li>
+                <li><a href="/vidora-website.html">Vidora Website</a></li>
+              </ul>
+            </details>
+          </li>
+          <li><a href="#skillset" class="text-lg mx-3 font-heading font-medium">Skillset</a></li>
+          <li>
+            <details>
+              <summary class="text-lg mx-3 font-heading font-medium">Contact</summary>
+              <ul class="p-2">
+                <li><a class="link link-hover flex flex-row gap-1 items-center"
+                    href="https://www.linkedin.com/in/juliadfm/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                      width="16" height="16" fill="#000000" viewBox="0 0 256 256">
+                      <path
+                        d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z">
+                      </path>
+                    </svg> Linkedin</a></li>
+                <li><a class="link link-hover flex flex-row gap-1 items-center" href="mailto:hello@juliafm.com"><svg
+                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" viewBox="0 0 256 256">
+                      <path
+                        d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z">
+                      </path>
+                    </svg></svg>hello@juliafm.com</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div>
+      <!--end-->
+      <div class="navbar-end px-2">
+        <div class="drawer flex flex-row justify-end">
+          <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+          <div class="drawer-content">
+            <label for="my-drawer" class="btn btn-outline btn-neutral drawer-button text-(--color-p) lg:hidden">Menu</label>
+          </div>
+          <div class="drawer-side">
+            <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+            <ul class="menu bg-base-300 text-base-content min-h-full w-80 p-4 gap-1">
+              <!-- Sidebar content here -->
+              <li>
+                <details>
+                  <summary class="text-lg mx-3 font-heading font-medium">Work</summary>
+                  <ul class="p-2">
+                    <li><a class="font-heading">Monitor de Investimentos</a></li>
+                    <li><a class="font-heading">Manduri</a></li>
+                    <li><a class="font-heading">MADESMS</a></li>
+                    <li><a class="font-heading">Cardans Curitiba</a></li>
+                    <li><a class="font-heading">Tris Website</a></li>
+                    <li><a class="font-heading">Vidora Website</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li><a href="#skillset" class="text-lg mx-3 font-heading font-medium">Skillset</a></li>
+              <li>
+                <details>
+                  <summary class="text-lg mx-3 font-heading font-medium">Contact</summary>
+                  <ul class="p-2">
+                    <li><a class="link link-hover flex flex-row gap-1 items-center font-heading"
+                        href="https://www.linkedin.com/in/juliadfm/" target="_blank"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" viewBox="0 0 256 256">
+                          <path
+                            d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z">
+                          </path>
+                        </svg> Linkedin</a></li>
+                    <li><a class="link link-hover flex flex-row gap-1 items-center font-heading" href="mailto:hello@juliafm.com"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" viewBox="0 0 256 256">
+                          <path
+                            d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z">
+                          </path>
+                        </svg></svg>hello@juliafm.com</a></li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+ <!--footer-->
+    <footer class="footer justify-center sm:footer-horizontal bg-base-300 text-base-content p-6">
+         <p class="font-heading text-sm">All rights reserved © Júlia Martins</p>     
+    </footer>
+  
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="svg" href="src/assets/icons/logo_jm.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./src/style.css" rel="stylesheet">
+  <title>Vidora Farmacêutica Website</title>
+</head>
+
+<body>
+  <!--navbar-->
+  <header class="flex justify-center sticky top-0 z-100 px-4 bg-base-200 shadow-sm">
+    <div class="navbar max-w-5xl">
+      <!--start-->
+      <div class="navbar-start flex flex-row justify-start px-4 md:px-0">
+        <div class="navbar-start">
+          <a class="btn btn-ghost text-xl -ml-8 md:ml-0" href="juliafm.com"><img class="w-13"
+              src="/src/assets/icons/logo_jm.svg" alt="Júlia Martins"></a>
+        </div>
+      </div>
+      <!--center-->
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li>
+            <details>
+              <summary class="text-lg mx-3 font-heading font-medium">Work</summary>
+              <ul class="p-2">
+                <li><a href="/monitor-investimentos.html">Monitor de Investimentos</a></li>
+                <li><a href="/manduri-app.html">Manduri</a></li>
+                <li><a href="/madesms.html">MADESMS</a></li>
+                <li><a href="/cardans-curitiba.html">Cardans Curitiba</a></li>
+                <li><a href="/tris-website.html">Tris Website</a></li>
+                <li><a href="/vidora-website.html">Vidora Website</a></li>
+              </ul>
+            </details>
+          </li>
+          <li><a href="#skillset" class="text-lg mx-3 font-heading font-medium">Skillset</a></li>
+          <li>
+            <details>
+              <summary class="text-lg mx-3 font-heading font-medium">Contact</summary>
+              <ul class="p-2">
+                <li><a class="link link-hover flex flex-row gap-1 items-center"
+                    href="https://www.linkedin.com/in/juliadfm/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                      width="16" height="16" fill="#000000" viewBox="0 0 256 256">
+                      <path
+                        d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z">
+                      </path>
+                    </svg> Linkedin</a></li>
+                <li><a class="link link-hover flex flex-row gap-1 items-center" href="mailto:hello@juliafm.com"><svg
+                      xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" viewBox="0 0 256 256">
+                      <path
+                        d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z">
+                      </path>
+                    </svg></svg>hello@juliafm.com</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div>
+      <!--end-->
+      <div class="navbar-end px-2">
+        <div class="drawer flex flex-row justify-end">
+          <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+          <div class="drawer-content">
+            <label for="my-drawer" class="btn btn-outline btn-neutral drawer-button text-(--color-p) lg:hidden">Menu</label>
+          </div>
+          <div class="drawer-side">
+            <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+            <ul class="menu bg-base-300 text-base-content min-h-full w-80 p-4 gap-1">
+              <!-- Sidebar content here -->
+              <li>
+                <details>
+                  <summary class="text-lg mx-3 font-heading font-medium">Work</summary>
+                  <ul class="p-2">
+                    <li><a class="font-heading">Monitor de Investimentos</a></li>
+                    <li><a class="font-heading">Manduri</a></li>
+                    <li><a class="font-heading">MADESMS</a></li>
+                    <li><a class="font-heading">Cardans Curitiba</a></li>
+                    <li><a class="font-heading">Tris Website</a></li>
+                    <li><a class="font-heading">Vidora Website</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li><a href="#skillset" class="text-lg mx-3 font-heading font-medium">Skillset</a></li>
+              <li>
+                <details>
+                  <summary class="text-lg mx-3 font-heading font-medium">Contact</summary>
+                  <ul class="p-2">
+                    <li><a class="link link-hover flex flex-row gap-1 items-center font-heading"
+                        href="https://www.linkedin.com/in/juliadfm/" target="_blank"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" viewBox="0 0 256 256">
+                          <path
+                            d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z">
+                          </path>
+                        </svg> Linkedin</a></li>
+                    <li><a class="link link-hover flex flex-row gap-1 items-center font-heading" href="mailto:hello@juliafm.com"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000" viewBox="0 0 256 256">
+                          <path
+                            d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z">
+                          </path>
+                        </svg></svg>hello@juliafm.com</a></li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+
+  <!--project-->
+  <div class="flex flex-col select-none">
+    <!--project-info-->
+    <div class="flex p-4 pt-10 justify-center" style="background-color:oklch(26.784% 0.07945 297.555);">
+      <div class="flex flex-col gap-4 pb-20 md:gap-10 w-full max-w-5xl">
+        <div class="flex flex-col gap-2">
+          <h2 class="text-3xl font-bold text-(--color-base-100) font-heading">Vidora Farmacêutica</h2>
+          <p class="text-(--color-base-100) font-text">Embracing the different perspectives of a multidimensional
+            business</p>
+        </div>
+        <div class="flex flex-col gap-4 md:flex-row md:gap-16 font-text">
+          <div class="text-(--color-base-100)">
+            <p class="text-xs font-heading" style="opacity:0.7">AREA</p>
+            <p>Webdesign</p>
+          </div>
+          <div class="text-(--color-base-100)">
+            <p class="text-xs font-heading" style="opacity:0.7">INDUSTRY</p>
+            <p>Pharmaceutical </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--project-content-->
+  <div class="flex flex-col z-1 pb-10 md:p-4 -mt-18 md:pb-20 md:gap-10 items-center">
+    <div class="flex flex-col w-full max-w-5xl gap-4">
+      <!--main-image-->
+      <figure class="flex z-1 justify-center px-4">
+        <img loading="lazy" class="aspect-3/2 rounded-sm md:w-200 border border-solid border-(--color-base-100)" alt=""
+          src="src/assets/pictures/project_covers/cover_vidora.webp"></img>
+      </figure>
+      <!--content-->
+      <div class="flex flex-col gap-1">
+        <div class="bg-base-100 p-3">
+          <p class="text-(--color-base-content) font-text">Vidora is a pharmaceutical industry based on Porto Alegre,
+            Brazil. Despite being one of the youngest pharma companies on the country, it’s already being recognized by
+            the quality of its products. </p>
+        </div>
+      </div>
+
+      <!--image-->
+      <figure class="flex bg-base-200 md:rounded-sm justify-center" style="">
+        <img class="md:rounded-sm md:w-full" alt="" src="src/assets/pictures/vidora/mockup_vidora_medico.jpg"></img>
+      </figure>
+
+      <!--image-->
+      <figure class="flex bg-base-200 md:rounded-sm justify-center" style="">
+        <img class="md:rounded-sm md:w-full" alt=""
+          src="src/assets/pictures/vidora/mockup_vidora_mobile_produto.jpg"></img>
+      </figure>
+
+      <!--image-->
+      <figure class="flex bg-base-200 md:rounded-sm p-4 md:p-8 justify-center"
+        style="background-color:oklch(26.784% 0.07945 297.555);">
+        <img class="rounded-sm md:w-full" alt="" src="src/assets/pictures/vidora/vidora_frames.png"></img>
+      </figure>
+        
+    </div>
+  </div>
+
+  <!--footer-->
+    <footer class="footer justify-center sm:footer-horizontal bg-base-300 text-base-content p-6">
+         <p class="font-heading text-sm">All rights reserved © Júlia Martins</p>     
+    </footer>
+</body>
+
+</html>
