@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Cardans Curitiba</title>
-  <link rel="stylesheet" crossorigin href="assets/style-yxvbsxiz.css">
+  <link rel="stylesheet" crossorigin href="assets/style-BrMtR1-O.css">
 </head>
 
 <body>
@@ -28,8 +28,8 @@
             <details>
               <summary class="text-lg mx-3 font-heading font-medium">Work</summary>
               <ul class="p-2">
-                <li><a href="monitor-investimentos.html" class="font-heading">Monitor de Investimentos</a></li>
-                <li><a href="manduri-app.html" class="font-heading">Manduri</a></li>
+                <li><a href="#" class="font-heading">Monitor de Investimentos</a></li>
+                <li><a href="#" class="font-heading">Manduri</a></li>
                 <li><a href="madesms.html" class="font-heading">MADESMS</a></li>
                 <li><a href="cardans-curitiba.html" class="font-heading">Cardans Curitiba</a></li>
                 <li><a href="tris-website.html" class="font-heading">Tris Website</a></li>
@@ -189,18 +189,25 @@
         </div>
       </div>
 
-      <!--slider-->
+      <!--comparison carousel-->
       <div class="flex flex-col items-center md:py-6">
-      <figure class="diff aspect-4/2 md:max-w-220 md:rounded-sm" tabindex="0">
-        <div class="diff-item-1" role="img" tabindex="0">
-          <img alt="#" src="assets/cardans_logo_diff_after-BfcDZeDT.webp"/>
+      <div class="carousel w-full">
+        <div id="slideLogo1" class="carousel-item relative w-full">
+          <img src="assets/cardans_logo_diff_after-BfcDZeDT.webp" class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slideLogo2" class="btn btn-circle">❮</a>
+            <a href="#slideLogo2" class="btn btn-circle">❯</a>
+          </div>
         </div>
-        <div class="diff-item-2" role="img">
-          <img alt="daisy" src="assets/cardans_logo_diff_before-BeIkPgVk.webp"/>
+        <div id="slideLogo2" class="carousel-item relative w-full">
+          <img src="assets/cardans_logo_diff_before-BeIkPgVk.webp" class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slideLogo1" class="btn btn-circle">❮</a>
+            <a href="#slideLogo1" class="btn btn-circle">❯</a>
+          </div>
         </div>
-        <div class="diff-resizer"></div>
-      </figure>
-      <figcaption class="text-xs text-(--color-p-alt) font-text pt-2">The new logo vs. the previous one</figcaption>
+      </div>
+      <figcaption class="text-xs text-(--color-p-alt) font-text pt-2">The new logo (blue background) vs. the previous one (gray background)</figcaption>
       </div>
 
       <!--content-->
@@ -224,17 +231,24 @@
           src="assets/mockup_celular_oficina-copiar-DBIQJz6d.webp"></img>
       </figure>
   
-      <!--slider-->
+      <!--comparison carousel-->
       <div class="flex flex-col items-center md:py-6">
-      <figure class="diff aspect-3/2 md:max-w-220 md:rounded-sm" tabindex="0">
-        <div class="diff-item-1" role="img" tabindex="0">
-          <img alt="#" src="assets/diff-1-12-DW3gWb8v.webp" />
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="assets/diff-1-12-DW3gWb8v.webp" class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
         </div>
-        <div class="diff-item-2" role="img">
-          <img alt="daisy" src="/assets/diff-2-12-_0WKbFmy.webp" />
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="assets/diff-2-12-_0WKbFmy.webp" class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
         </div>
-        <div class="diff-resizer"></div>
-      </figure>
+      </div>
       <figcaption class="text-xs text-(--color-p-alt) font-text pt-2">Now & Then: the website</figcaption>
       </div>
 
@@ -248,6 +262,5 @@
     </footer>
 
 </body>
-
 
 </html>
